@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color: #000;
+}
+.container {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.irpost {
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	font-size: 19px;
+	background-color: transparent;
+}
+.irpost h5 {
+	color: #998484;
+	border-radius: 3px;
+	padding: 7px 15px;
+	display: inline;
+	background-color: transparent;
+	border: 1px solid #7b7d85;
+	transition: background-color, color .3s;
+	cursor: pointer;
+}
+.sec_dox {
+	font-size: 19px;
+}
+
+.irpost h5:hover {
+	color: #fff;
+	background-color: #7b7d85;
+}
+.flex_container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.flex_container .irinicio a {
+	color: #7b7d85;
+	border-radius: 3px;
+	padding: 7px 15px;
+	display: inline;
+	background-color: transparent;
+	border: 1px solid #7b7d85;
+	transition: background-color, color .3s;
+	cursor: pointer;
+	font-size: 19px;
+}
+.irinicio a:hover {
+	color: #fff;
+	background-color: #7b7d85;
+}
+.buscador {
+	border-radius: 3px;
+	border: 1px solid #7b7d85;
+	background-color: transparent;
+}
+.buscador input, h5 {
+	display: inline;
+
+}
+.buscador h5 {
+	border-right: 1px solid #7b7d85;
+	font-size: 15px;
+	color: #7b7d85;
+	border-radius: 3px;
+	padding: 7px 15px;
+	display: inline;
+	background-color: transparent;
+	transition: background-color, color .3s;
+	cursor: pointer;
+}
+.buscador input {
+	font-size: 15px;
+	color: #ebe6e6;
+	padding: 7px 15px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	width: 440px;
+}
+.card_container {
+	margin-top: 10px;
+	border: 1px solid #7b7d85;
+}
+.card .flex_titulo {
+	font-size: 25px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.flex_desc {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.id_boton {
+	border: 1px solid #ff4977;
+	background: rgb(255 73 119 / 40%);
+	padding: 3px 24px;
+}
+.verificado {
+	border: 1px solid #ff4977;
+	background: rgb(255 73 119 / 40%);
+	padding: 3px 24px;
+	margin-right: 5px;
+}
+.card {
+	margin: 0 auto;
+	width: 95%;
+}
+.flex_desc {
+	font-size: 18px;
+}
+.flex_subinfo {
+	display: flex;
+	justify-content: space-between;
+}
